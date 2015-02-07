@@ -1,0 +1,14 @@
+# Site settings
+name: ControlC.fm
+my_name: Control C
+title: Control C
+email: feedback@controlc.fm
+description: "Chris Becker and Jeff Uthaichai talk about tech, beer, and more"
+baseurl: ""
+url: "http://controlc.fm"
+blog_image_url: "/images/episodes/"
+
+# Build settings
+markdown: kramdown
+permalink: /episode/:year/:month/:day/:title/
+source: src
