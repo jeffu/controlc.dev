@@ -3,10 +3,13 @@ name: ControlC.fm
 my_name: Control C
 title: Control C
 email: feedback@controlc.fm
-description: "Chris Becker and Jeff Uthaichai talk about tech, beer, and more"
+description: "A podcast where Chris Becker and Jeff Uthaichai talk about tech, beer, and more"
 baseurl: ""
 url: "http://controlc.fm"
+
+# Image paths
 blog_image_url: "/images/episodes/"
+main_avatar: "/images/jeff_and_chris.png"
 
 # Build settings
 markdown: kramdown
