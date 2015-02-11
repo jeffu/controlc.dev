@@ -1,0 +1,4 @@
+s3_id: S3_ID_HERE
+s3_secret: S3_SECRET_HERE
+s3_bucket: S3_BUCKET_NAME_HERE
+site: _site
