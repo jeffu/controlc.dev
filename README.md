@@ -39,7 +39,7 @@ Then:
 
 2. push the code!
 
-    `s3_website push
+    `s3_website push`
 
 ## Feedback
 
