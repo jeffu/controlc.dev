@@ -8,11 +8,11 @@
   <language>en-us</language>
   <copyright>&#xA9; 2015 Chris Becker &amp; Jeff Uthaichai</copyright>
   <itunes:subtitle>Chris Becker and Jeff Uthaichai talk about tech, beer, and more!</itunes:subtitle>
-  <itunes:author>Chris Becker &amp; Jeff Uthaichai</itunes:author>
+  <itunes:author>Chris Becker, Jeff Uthaichai</itunes:author>
   <itunes:summary>Control C is a tech show about anything and everything related to tech. Hosted by Chris Becker and Jeff Uthaichai.</itunes:summary>
   <description>Control C is a tech show about anything and everything related to tech. Hosted by Chris Becker and Jeff Uthaichai.</description>
   <itunes:owner>
-    <itunes:name>Chris Becker &amp; Jeff Uthaichai</itunes:name>
+    <itunes:name>Chris Becker, Jeff Uthaichai</itunes:name>
     <itunes:email>feedback@controlc.fm</itunes:email>
   </itunes:owner>
   <itunes:image href="{{ site.url }}{{ site.podcast_cover }}" />
@@ -22,7 +22,7 @@
   {% for post in site.posts %}
   <item>
     <title>{{ post.itunes_title }}</title>
-    <itunes:author>Chris Becker &amp; Jeff Uthaichai</itunes:author>
+    <itunes:author>Chris Becker, Jeff Uthaichai</itunes:author>
     <itunes:subtitle>{{ post.itunes_subtitle }}</itunes:subtitle>
     <itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
     <itunes:image href="{{ site.url }}{{ site.podcast_cover }}" />
