@@ -10,6 +10,7 @@ url: "http://controlc.fm"
 # Image paths
 blog_image_url: "/images/episodes/"
 main_avatar: "/images/jeff_and_chris.png"
+podcast_cover: "/images/podcast_cover.png"
 
 # Build settings
 markdown: kramdown
