@@ -27,8 +27,8 @@
     <itunes:subtitle>{{ post.itunes_subtitle }}</itunes:subtitle>
     <itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
     <itunes:image href="{{ site.url }}{{ site.podcast_cover }}" />
-    <enclosure url="{{ site.url}}/episodes/{{ post.audio_filename }}" length="{{ post.size_in_bytes }}" type="audio/x-m4a" />
-    <guid>{{ site.url}}/episodes/{{ post.audio_filename }}</guid>
+    <enclosure url="{{ site.url }}/episodes/{{ post.audio_filename }}" length="{{ post.size_in_bytes }}" type="audio/x-m4a" />
+    <guid>{{ site.url }}/episodes/{{ post.audio_filename }}</guid>
     <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S" }} GMT</pubDate>
     <itunes:duration>{{ post.duration_in_seconds }}</itunes:duration>
     <itunes:explicit>yes</itunes:explicit>
