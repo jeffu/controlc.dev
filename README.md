@@ -29,7 +29,7 @@ You'll have a new folder in the directory called `_site` that has all of the com
 
 ## Deployment
 
-For deploying to S3, we use a tool called `s3_website` which looks at a file named `s3_website.yml` for configuration information. Take a look at the example file, add your S3 API keys and bucket name and save the file as `s3_website.yml`
+For deploying to S3, we use a tool called `s3_website` which looks at a file named `s3_website.yml` for configuration information. Take a look at the example file, add your S3 API keys and bucket name, and save the file as `s3_website.yml`
 
 Then:
 
