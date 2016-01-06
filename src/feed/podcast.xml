@@ -25,7 +25,8 @@
     <title>{{ post.itunes_title }}</title>
     <itunes:author>Chris Becker, Jeff Uthaichai</itunes:author>
     <itunes:subtitle>{{ post.itunes_subtitle }}</itunes:subtitle>
-    <itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
+    <itunes:summary>{{ post.itunes_subtitle }}</itunes:summary>
+    <content:encoded><![CDATA[{{ post.content | xml_escape }}]]></content:encoded>
     <itunes:image href="{{ site.url }}{{ site.podcast_cover }}" />
     <enclosure url="{{ site.url }}/episodes/{{ post.audio_filename }}" length="{{ post.size_in_bytes }}" type="audio/x-m4a" />
     <guid>{{ site.url }}/episodes/{{ post.audio_filename }}</guid>
