@@ -1,7 +1,7 @@
-ControlC.fm
+ControlC.dev
 =========
 
-Source repository for ControlC.fm, built with jekyll.
+Source repository for ControlC.dev, built with jekyll.
 
 
 ## Building your own copy
@@ -11,11 +11,11 @@ Make sure you have ruby installed, then:
 
 1. clone this repo
 
-   `git clone https://github.com/Cbeck527/controlc.fm`
+   `git clone https://github.com/jeffu/controlc.dev`
 
 2. cd into the folder
 
-    `cd controlc.fm`
+    `cd controlc.dev`
 
 3. install tools and dependencies
 

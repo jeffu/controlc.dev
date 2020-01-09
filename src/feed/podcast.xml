@@ -3,7 +3,7 @@
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns:atom="http://www.w3.org/2005/Atom/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
   <title>Control C</title>
-  <link>http://www.controlc.fm</link>
+  <link>http://www.controlc.dev</link>
   <language>en-us</language>
   <itunes:explicit>yes</itunes:explicit>
   <copyright>&#xA9; 2015 Chris Becker &amp; Jeff Uthaichai</copyright>
@@ -13,8 +13,9 @@
   <description>Control C is a tech show about anything and everything related to tech. Hosted by Chris Becker and Jeff Uthaichai.</description>
   <itunes:owner>
     <itunes:name>Chris Becker, Jeff Uthaichai</itunes:name>
-    <itunes:email>feedback@controlc.fm</itunes:email>
+    <itunes:email>feedback@controlc.dev</itunes:email>
   </itunes:owner>
+  <itunes:new-feed-url>http://www.controlc.dev/feed/podcast.xml</itunes:new-feed-url>
   <itunes:image href="{{ site.url }}{{ site.podcast_cover }}" />
   <itunes:category text="Technology">
     <itunes:category text="Tech News"/>

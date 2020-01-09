@@ -1,11 +1,11 @@
 # Site settings
-name: ControlC.fm
+name: ControlC.dev
 my_name: Control C
 title: Control C
-email: feedback@controlc.fm
+email: feedback@controlc.dev
 description: "A podcast where Chris Becker and Jeff Uthaichai talk about tech, beer and more"
 baseurl: ""
-url: "http://www.controlc.fm"
+url: "http://www.controlc.dev"
 
 # Image paths
 blog_image_url: "/images/episodes/"
