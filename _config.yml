@@ -5,7 +5,7 @@ title: Control C
 email: feedback@controlc.dev
 description: "A podcast where Chris Becker and Jeff Uthaichai talk about tech, beer and more"
 baseurl: ""
-url: "http://www.controlc.dev"
+url: "https://www.controlc.dev"
 
 # Image paths
 blog_image_url: "/images/episodes/"
